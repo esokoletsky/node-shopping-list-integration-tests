@@ -1,9 +1,9 @@
 language: node_js
 node_js: node
-deploy: https://powerful-fortress-73868.herokuapp.com/
+deploy:
   provider: heroku
   api_key:
     secure: PlG6aJd9C/fcX71QoKBRoCxHSsZLHKCtYvhqSKTnsUCYr/t6A415iJtW/ffanDBR7W07XvhC5GEThDRAl2DMs9AMNN0sfwQIdv3PJwRfh7d7V+jX8OJgBIrSuuwGTRwu+iXpV/Gv7HWNEi0iOTTLKq6hwqQqkVD9+479GNgkxZOpBIEwiD3VnyQY4bUFsBz5UFvxyAp/rxSb9NaLxfgoEOocTiu4wLcZRkAUm+mP+N0ch8ukXEV+OAmpxfnyij2yweCxHnDyM5S9DkN/Fnxh4yreEVIqjHm4Dcvxg1gxnByRJ65ay6ZSnLulK/4CRl3pFhEOSuu7jdUq/LZGECaQaLZiNsEX+HlsT4nXwvCVWpShNHfarUwX8HwlaIVvsfCbf/64kWCskeEJkoGYj26D/dk4kuRskHBfUrbOZBFhXVkBNcfCvB7ay+kM6WsfNuxZPPQq9ZdOT+5jvzqDh1XhHdhGUy3ZqJ+pYxTPSENHk6MUsZR93sDA+biIXs8ncyE2Qo+Mv3zhntpPEcg8XcTVSKHj7V/rxLbHGm7gWEdJnZ2QFFe6ex4GvCinPXlhbQXrD19o92yFtoic8rcNB+zlSlbXqbfj4oukLMNRfwwICux5xFZs2USA/QTcVjv+BJugkTgwrzDe/5oOXAz3z0kKI61KfTxSJksaZ8imqTM9mKY=
-  app: node-shopping-list-integration-tests
+  app: powerful-fortress-73868
   on:
     repo: esokoletsky/node-shopping-list-integration-tests
